@@ -1,12 +1,12 @@
 print("Bem vindo a Tabuada")
 num_base = int(input("Digite um numero base "))
-num_cont = 1 
+num_cont = 0
 ref_saida = " * "
-ref_saida2 = " = "
+ref_saida2 = "="
 
 for num_cont in range(11):
     resultado = num_base * num_cont
-    print (resultado)
+    print (num_base , str(ref_saida),num_cont, str(ref_saida2), resultado)
 
 #print (num_base + " * " + "2 " + "= " + num_base * 2)
 #print (num_base + " * " + "3 " + "= " + num_base * 3)
