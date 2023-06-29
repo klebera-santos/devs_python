@@ -1,0 +1,1 @@
+print(f"Porcentagem de acertos: {porcentagem_acertos:.2f}%")
